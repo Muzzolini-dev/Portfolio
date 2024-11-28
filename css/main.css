@@ -1115,13 +1115,16 @@ header .top-bar {
 	min-width: 120px;
 	min-height: 30px;
 	font-family: "Press Start 2P";
-	color: #6b27e6;
+	color: #aed0e6;
 	font-size: 1.6rem;
 	top: 0;
 }
 .switch-lang:hover, .switch-lang:focus {
 	color:#c374e1;
 }
+/* .switch-lang::after{
+	color: #6b27e6;
+} */
 
 header .logo {
 	float: left;
