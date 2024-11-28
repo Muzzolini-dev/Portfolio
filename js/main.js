@@ -205,7 +205,25 @@
 
   	});  
   
+	  document.addEventListener('DOMContentLoaded', function() {
+		const langSwitch = document.querySelector('.switch-lang');
+		if (langSwitch) {
+			// Restaurar el texto si está vacío
+			if (!langSwitch.textContent.trim()) {
+				langSwitch.textContent = langSwitch.dataset.text;
+			}
+			
+			// Asegurar que el texto se mantenga después de cada clic
+			langSwitch.addEventListener('click', function() {
+				const text = this.dataset.text;
+				setTimeout(() => {
+					this.textContent = text;
+				}, 0);
+			});
+		}
+	});
 
+	
    /*---------------------------------------------------- */
 	/*  Placeholder Plugin Settings
 	------------------------------------------------------ */ 
