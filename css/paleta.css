@@ -1,0 +1,10 @@
+/* Es una referencia, por ejemplo, el celeste lo usé para los botones en el intro */
+
+body{
+    color:#731aba;  /* principal */
+    color: #6b27e6; /* secundario */
+    color: #c374e1; /* claros */
+    color: #131058; /* oscuros */
+    color: #aed0e6; /* fondos-claros */
+    color: #3a006e; /* fondos oscuros */
+}
