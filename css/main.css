@@ -1105,19 +1105,18 @@ header .top-bar {
 }
 .switch-lang{
 	position: relative;
-	float:right;
+	float: right;
 	align-items: right;
 	text-align: right;
-	right: 1000;
 	padding: 1rem;
-	background: #000000;
-	opacity: 80%;
+	background: rgba(0, 0, 0, 0.8);
 	min-width: 120px;
 	min-height: 30px;
 	font-family: "Press Start 2P";
 	color: #aed0e6;
 	font-size: 1.6rem;
 	top: 0;
+	text-decoration: none;
 }
 .switch-lang:hover, .switch-lang:focus {
 	color:#c374e1;
