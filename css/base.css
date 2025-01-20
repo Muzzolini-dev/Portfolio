@@ -415,7 +415,7 @@ textarea {
 	width: auto;
 	max-width: none;
 	margin-left: -20px;
-	margin-right: -20px;
+	margin-right: 20px;
 }
 
 [class*="col-"],
@@ -428,7 +428,7 @@ textarea {
 }
 
 [class*="col-"] {
-	padding: 0 20px;
+	padding: 10px 20px;
 }
 
 .col-one {
@@ -645,6 +645,10 @@ textarea {
 
 .block-1-2 .bgrid {
 	width: 50%;
+}
+
+.bgrid {
+	padding: 15px;
 }
 
 /**
