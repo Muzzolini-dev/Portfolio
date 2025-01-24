@@ -68,6 +68,7 @@ html {
 
 html, body {
 	height: 100%;
+	overflow-x: hidden;
 }
 body {
 	background: #151515;
@@ -161,6 +162,12 @@ p.lead {
 @media only screen and (max-width:768px) {
 	p.lead {
 		font-size: 1.7rem;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	p.lead {
+		font-size: 1.4rem!important;
 	}
 }
 em, i, strong, b {
@@ -1097,7 +1104,7 @@ header .top-bar {
 	display: block;
 	background: #000000;
 	opacity: 70%;
-	min-width: 220px;
+	min-width: 200px;
 	min-height: 66px;
 	position:absolute;
 	left: 100;
@@ -1106,11 +1113,11 @@ header .top-bar {
 .switch-lang{
 	position: relative;
 	float: right;
-	align-items: right;
+	margin-right: 0;
 	text-align: right;
 	padding: 1rem;
 	background: rgba(0, 0, 0, 0.8);
-	min-width: 120px;
+	min-width: 100px;
 	min-height: 30px;
 	font-family: "Press Start 2P";
 	color: #aed0e6 !important;
@@ -1305,12 +1312,18 @@ header .logo a {
 }
 @media only screen and (max-width:600px) {
 	header .top-bar {
-		left: 35px;
+		left: 0;
+	}
+
+	header .switch-lang {
+		right: -30px;
+		font-size: 1.2rem;
+
 	}
 }
 @media only screen and (max-width:400px) {
 	header .top-bar {
-		left: 25px;
+		left: 0;
 	}
 }
 
